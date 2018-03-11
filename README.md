@@ -97,3 +97,44 @@ Existen 3 cosas para poder hacer la descripción de una **Base de Datos:**
 - XML
 - NoSQL
 - In-Memory
+
+
+<br>
+
+### Diferentes tipos de Bases de Datos ###
+***
+
+**Características de Bases de Datos SQL:**
+
+- Es un lenguaje estructurado.
+- Tiene un esquema de tablas.
+- Tiene integración con otros tipos de archivos.
+- Tiene indexación por medio de árboles.
+
+**Características de Bases de Datos NoSQL:**
+
+- Se puede trabajar con un lenguaje estructurado o con uno no estructurado.
+- Tiene diferente tipo de indexación. Se utiliza normalmente Json.
+- Tiene un crecimiento horizontal.
+
+**Características de Bases de Datos Analíticas y de Bigdata:**
+
+- Son de lenguaje no estructurado.
+- Tiene integración de muchos sistemas.
+- Tiene integración también a sistemas tradicionales y sistemas de engagement.
+- Principio “divide y vencerás”
+- Se basa en esquemas Scale Out.
+- Crecimiento horizontal.
+
+**Características de Bases de Datos basadas en aceleración:**
+
+- Normalmente basadas in Memory.
+- Uso de aceleradores como GPU, flash cards, FPGAs.
+- Tienen estructuras diferentes, por ejemplo, basadas en nodos.
+- Uso frecuente de ambientes empresariales productivos y de datawarehouse.
+
+
+<br>
+### Enlaces de interes ###
+
+[SQL-92](https://es.wikipedia.org/wiki/SQL-92)
