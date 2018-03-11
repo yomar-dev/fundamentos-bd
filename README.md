@@ -163,6 +163,26 @@ El símbolo con el que representamos la característica “de uno a muchos” es
 
 <br>
 
+### Tener en cuenta ###
+***
+
+- Las llaves primarias obligatoriamente van a ser índices.
+- Las Bases de Datos indexan con un algoritmo llamado: **Árboles B+**
+- Los **Árboles B+** son una estructura que va a tener un tronco, tres raíces, de las cuales se van a ir derivando tres raíces más por cada una, hasta donde sea necesario.
+- Por defecto todas las Bases de Datos están indexadas, así no le pongamos índices. Lo que sucede es que la Base de Datos siempre obliga a indexar porque siempre tienen un atributo que está oculto, este atributo es RowID.
+
+<br>
+
+
+### Notas ###
+***
+
+**Entidad Fuerte:** La constituyen las tablas principales de la BD, que contienen los registros principales del sistema de información y que requieren de entidades o tablasauxiliares para completar su descripción o información.
+
+**Entidad Debil:** Tablas auxiliares de una tabla principal a la que completan o complementan con la información de sus registros relacionados.
+
+
+<br><br><br>
 ### Enlaces de interes ###
 
 [SQL-92](https://es.wikipedia.org/wiki/SQL-92) <br>
