@@ -146,6 +146,21 @@ Existen 3 cosas para poder hacer la descripción de una **Base de Datos:**
 **Recomendación:**<br>
 El formato para trabajar con los ID debe ser “number”. No siempre va a poder ser así, pero es lo más recomendable.
 
+
+<br>
+
+### ¿Qué es una Relación? ###
+***
+
+Para definir una **Relación** tenemos que tener en cuenta los siguientes puntos:
+
+**La obligatoriedad:** Ésta se denota con una línea continua.
+
+**Opcional:** Se representa con una línea punteada.
+
+**Datos importantes:** <br>
+El símbolo con el que representamos la característica “de uno a muchos” es con la llamada pata de gallo, que gráficamente es una línea continua con dos líneas en 45 grados en cada lado.
+
 <br>
 
 ### Enlaces de interes ###
