@@ -135,6 +135,20 @@ Existen 3 cosas para poder hacer la descripción de una **Base de Datos:**
 
 
 <br>
+
+### ¿Qué es una Entidad? ###
+***
+
+**Entidad =** Es una abstracción del mundo real.
+
+**Barker =** Aquí una entidad se representa como una caja, es una caja que va a tener atributos. Estos atributos van a poder ser obligatorios u opcionales.
+
+**Recomendación:**<br>
+El formato para trabajar con los ID debe ser “number”. No siempre va a poder ser así, pero es lo más recomendable.
+
+<br>
+
 ### Enlaces de interes ###
 
-[SQL-92](https://es.wikipedia.org/wiki/SQL-92)
+[SQL-92](https://es.wikipedia.org/wiki/SQL-92) <br>
+[Barkers Notation](http://www.vertabelo.com/blog/technical-articles/barkers-erd-notation)
