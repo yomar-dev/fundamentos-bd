@@ -173,6 +173,15 @@ El símbolo con el que representamos la característica “de uno a muchos” es
 
 <br>
 
+### Constrains o Restricciones ###
+***
+
+- Las restricciones se pueden trabajar desde la Base de Datos. Normalmente las validaciones con restricciones se hacen desde la aplicación, pero es importante tener en cuenta que podemos hacerlo de igual forma desde la Base de Datos.
+- Las llaves primarias y las llaves foraneas no solamente tienen la restricción **_Not null_**, sino que además tienen la restricción **_unique_**, no puede haber otra igual.
+- Con **_check_**, las validaciones que podemos hacer son: Igual, mayor o igual, menor o igual, mayor qué o menor qué.
+
+<br>
+
 
 ### Notas ###
 ***
