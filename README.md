@@ -56,3 +56,44 @@ Existen **3 niveles de Abstracción** en las **Bases de Datos:**
 - **Conceptual:** Se tiene que empezar a modelar una Base de Datos dependiendo de lo que se quiere hacer basado en los conceptos de “entidad” y “relación”.
 - **Lógico:** El diagrama lógico nos va a resolver ciertas dudas de consistencia, para evitar crear loops o evitar que tenga cosas que no tengan sentido en nuestro proyecto.
 - **Físico:** Es finalmente cómo lo va a ver la Base de Datos.
+
+
+<br>
+
+### Tipos de Datos ###
+***
+
+Igual que en cualquier lenguaje de programación, existen **variables** en las **Bases de Datos:**
+
+- **Caracteres:** Pueden ser desde letras hasta caracteres especiales.
+- **Numérico:** Del 0 al 9 pero con una longitud especial.
+- **Varchar:** Caracteres con un formato más variable.
+- **Imagen**
+- **Fecha:** Generalmente van acompañadas de una hora.
+- **Moneda:** esto facilita todo si se trabaja con diferentes denominaciones.
+- **Texto:** Variables que tienen mayor tamaño que un char o que un varchar.
+- **Bit:** Se puede trabajar con 1 y 0 o también con verdadero y falso.
+- **Decimal**
+
+**Esquema =** Es la estructura lógica que va a tener una Base de Datos. <br>
+**Instancia =** Contenido de partículas que tiene una Base de Datos en un instante de tiempo.
+
+¿Qué debemos esperar para modelar una **Base de Datos**?
+
+- Los datos.
+- La relación que existe entre los datos.
+- Restricciones de los datos.
+
+Existen 3 cosas para poder hacer la descripción de una **Base de Datos:**
+
+- **DML =** Data Manipulation Language o Lenguaje de Manipulación de Datos.
+- **DDL =** Data Definition Language o Lenguaje de Definición de Datos.
+- **SQL =** Structured Query Language o Lenguaje de Consulta Estructurada.
+
+**Otros tipos de Bases de Datos:**
+
+- Bases de Datos Relacionales
+- Basadas en Objetos Relacionales
+- XML
+- NoSQL
+- In-Memory
