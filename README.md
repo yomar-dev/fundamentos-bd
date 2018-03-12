@@ -182,6 +182,18 @@ El símbolo con el que representamos la característica “de uno a muchos” es
 
 <br>
 
+### Capas de abstracción del modelo Entidad-Relación ###
+***
+
+- **Capa Conceptual:** En esta capa vamos a tener varias entidades, aún sin nombre definido. Las entidades van a tener cada una sus llaves primarias y sus atributos, además van a tener relaciones.
+Para que existan las relaciones “muchos a muchos” se necesitan llaves foráneas en las entidades.
+
+- **Capa Lógica:** El modelo Entidad-Relación para poder procesar las relaciones “muchos a muchos” las va a partir en entidades que se llaman: Entidades Débiles.
+
+- **Capa Física:** Este modelo va a ser el paso del modelo lógico hacia la representación que ya va a tener la Base de Datos. En esta capa, ya cada uno de los datos empieza a entrar en las clasificaciones según su tipo de dato.
+
+<br>
+
 
 ### Notas ###
 ***
