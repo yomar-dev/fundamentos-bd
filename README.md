@@ -224,7 +224,7 @@ _**Para tomar en cuenta:**_ Pueden existir relaciones entre entidades que se rel
 <br>
 
 - **Paso 3:** Entidades y Relaciones <br> 
-**_Nota:_** Esta imagen la compartio un compañero de la clase [@GOLLUM23](https://platzi.com/@GOLLUM23/). En la relación **Avion - Pasajero** la relación es de **1:M**.
+**_Nota:_** Esta imagen la compartio un compañero de la clase [@GOLLUM23](https://platzi.com/@GOLLUM23/). En la relación **Avion - Pasajero** la relación es de **1:M**. <br>
 ![](images/entidades-relaciones.jpg)
 
 <br>
@@ -249,6 +249,8 @@ En las entidades debiles no debería haber tipos de datos **seriales**, estas te
 - **Paso 7:** Identificar nuevos atributos que generan nuestras entidades débiles.
 
 - **Paso 8:** Construir el diagrama del modelo físico.
+
+- **Paso 9:** Pasar al estándar de la base de datos (SQL).
 
 <br>
 
