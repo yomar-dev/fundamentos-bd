@@ -134,7 +134,9 @@ Existen 3 cosas para poder hacer la descripción de una **Base de Datos:**
 - Uso frecuente de ambientes empresariales productivos y de datawarehouse.
 
 
-<br>
+<br><br><br>
+
+## Bases de Datos Relacionales ##
 
 ### ¿Qué es una Entidad? ###
 ***
@@ -194,6 +196,63 @@ Para que existan las relaciones “muchos a muchos” se necesitan llaves forán
 
 <br>
 
+### Metodología básica de 9 pasos con Barker ###
+***
+
+Para poner en practica los conceptos vistos anteriormente y los 9 pasos con **Barker** modelaremos el sistema de un Aeropuerto.
+
+- **Paso 1:** Vamos a identificar cuáles son las entidades que van a resolver nuestros problema.
+_**Recomendación:** Documentarse muy bien acerca del problema que se va a resolver._ <br><br>
+ **Entidades:**
+ - Avión
+ - Aerolinea
+ - Ruta
+ - Tripulante
+ - Piloto
+ - Aeropuerto
+ - País
+ - Ciudad
+ - Pasajero
+
+<br>
+
+- **Paso 2:** Identificación de las relaciones de las entidades. <br>
+_**Para tomar en cuenta:**_ Pueden existir relaciones entre entidades que se relacione entre ellas mismas. <br> 
+**_Nota:_** Esta imagen la compartio un compañero de la clase [@elSharmaz](https://platzi.com/@elSharmaz/).
+![](images/relaciones.png)
+
+<br>
+
+- **Paso 3:** Entidades y Relaciones <br> 
+**_Nota:_** Esta imagen la compartio un compañero de la clase [@GOLLUM23](https://platzi.com/@GOLLUM23/). En la relación **Avion - Pasajero** la relación es de **1:M**.
+![](images/entidades-relaciones.jpg)
+
+<br>
+
+- **Metodología de Diseño (Correcciónes del paso 2 y 3):** Aporte realizado por [@GOLLUM23](https://platzi.com/@GOLLUM23/). <br> 
+![](images/correciones.jpg) <br><br>
+**Diagrama Entidad Relación:**  Aporte realizado por [@GOLLUM23](https://platzi.com/@GOLLUM23/).
+![](images/diagrama-entidad-relacion.jpg)
+
+<br>
+
+- **Paso 4:** Asignar atributos a las entidades. 
+
+- **Paso 5:** Generar un diagrama conceptual (entidades, relaciones y atributos).
+Las relaciones siempre se van a hacer en 2 sentidos (A con B y B con A).
+
+- **Paso 6:** Modelo lógico.  <br>
+Las relaciones se hacen por medio de **entidades débiles**, entre las entidades relacionadas, esto es porque no podemos generar muchas **llaves foráneas** en ambas entidades (fuertes). <br><br>
+En estas entidades debiles se usan ambas **llaves primarias** de las entidades (fuertes) que tenían relación. <br><br>
+En las entidades debiles no debería haber tipos de datos **seriales**, estas tendrían que ser integer, ya que las entidades debiles no tienen forma de tener consistencia con esa serialidad.
+
+- **Paso 7:** Identificar nuevos atributos que generan nuestras entidades débiles.
+
+- **Paso 8:** Construir el diagrama del modelo físico.
+
+<br>
+
+
 
 ### Notas ###
 ***
@@ -207,4 +266,6 @@ Para que existan las relaciones “muchos a muchos” se necesitan llaves forán
 ### Enlaces de interes ###
 
 [SQL-92](https://es.wikipedia.org/wiki/SQL-92) <br>
-[Barkers Notation](http://www.vertabelo.com/blog/technical-articles/barkers-erd-notation)
+[Barkers Notation](http://www.vertabelo.com/blog/technical-articles/barkers-erd-notation) <br>
+[gliffy](https://www.gliffy.com/) <br>
+[Start UML](http://staruml.io/)
