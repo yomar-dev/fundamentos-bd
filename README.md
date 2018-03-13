@@ -255,16 +255,12 @@ En las entidades debiles no debería haber tipos de datos **seriales**, estas te
 <br>
 
 
-### Atomicidad y Consistencia ###
+### Principios para desarrollar Bases de Datos ###
 ***
 
 **Atomicidad:** Asegura que yo tenga un conjunto de pasos para llegar a ser una transacción exitosa.
 
-**Consistencia:** Aseguro que tengo un estado válido y pasó a otro estado que sigue siendo válido. <br><br>
-
-
-### Aislamiento y Durabilidad ###
-***
+**Consistencia:** Aseguro que tengo un estado válido y pasó a otro estado que sigue siendo válido.
 
 **Aislamiento:** Esta propiedad asegura que una operación no puede afectar a otras. Esto asegura que la realización de dos transacciones sobre la misma información sean independientes y no generen ningún tipo de error. Esta propiedad define cómo y cuándo los cambios producidos por una operación se hacen visibles para las demás operaciones concurrentes. El aislamiento puede alcanzarse en distintos niveles, siendo el parámetro esencial a la hora de seleccionar SGBDs.
 
