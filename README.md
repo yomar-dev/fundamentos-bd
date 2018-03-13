@@ -256,6 +256,17 @@ En las entidades debiles no debería haber tipos de datos **seriales**, estas te
 
 
 
+### Atomicidad y Consistencia ###
+***
+
+**Atomicidad:** Asegura que yo tenga un conjunto de pasos para llegar a ser una transacción exitosa.
+
+**Consistencia:** Aseguro que tengo un estado válido y pasó a otro estado que sigue siendo válido.
+
+<br>
+
+
+
 ### Notas ###
 ***
 
