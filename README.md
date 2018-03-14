@@ -268,6 +268,15 @@ En las entidades debiles no debería haber tipos de datos **seriales**, estas te
 
 <br>
 
+### Bases de Datos In-Memory (Cambio de árboles a columnar) ###
+***
+
+Las bases de datos **tradicionales** (basada en arboles) hacen una búsqueda por cada uno de los datos de la tabla hasta llegar al resultado.
+
+En las bases de datos **In-Memory** (columnares), el esquema de búsqueda seleccion una columna (por ejemplo Identificador) recorriendola hasta llegar al resultado, dando un mejor rendimiento.
+
+<br>
+
 
 
 ### Notas ###
