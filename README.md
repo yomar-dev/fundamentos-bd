@@ -295,6 +295,8 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 **Segunda forma Normal:** Una tabla 1NF estará en 2NF si y solo si, dada una clave primaria y cualquier atributo que no sea un constituyente de la clave primaria, el atributo no clave depende de toda la clave primaria en vez de solo una parte de ella  (Todos los atributos que no son clave principal deben depender únicamente de la clave principal).
 
+**Tercera forma Normal:** Consiste en que ningún atributo que depende de la **PK**, dependa de otro atributo dato. Es decir, para que los datos estén en 3FN, deben estar en 2FN y **no deben** tener **dependencia transitiva (X->Y->Z).**
+
 
 <br><br><br>
 ### Enlaces de interes ###
