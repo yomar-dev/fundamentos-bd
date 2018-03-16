@@ -293,6 +293,8 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 **Primera forma Normal:** Principio de Atomicidad, dejar el mínimo valor posible de un dato.
 
+**Segunda forma Normal:** Una tabla 1NF estará en 2NF si y solo si, dada una clave primaria y cualquier atributo que no sea un constituyente de la clave primaria, el atributo no clave depende de toda la clave primaria en vez de solo una parte de ella  (Todos los atributos que no son clave principal deben depender únicamente de la clave principal).
+
 
 <br><br><br>
 ### Enlaces de interes ###
