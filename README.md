@@ -291,6 +291,8 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
  - **Aumentativa =>** Si tengo un dato A, C entonces B, C. <br>
  - **Transitiva =>** Si tengo una tabla A que esta relacionada con una tabla B y tengo un tabla C relacionada con B no tengo que tener relación entre A y C para poder traer los datos de C cuando hago una consulta de A.
 
+**Primera forma Normal:** Principio de Atomicidad, dejar el mínimo valor posible de un dato.
+
 
 <br><br><br>
 ### Enlaces de interes ###
