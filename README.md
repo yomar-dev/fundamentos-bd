@@ -286,6 +286,11 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 **Entidad Debil:** Tablas auxiliares de una tabla principal a la que completan o complementan con la información de sus registros relacionados.
 
+**Dependencias Funcionales:** <br>
+ - **Reflexiva =>** Si tengo un dato A puedo llegar a un dato B. <br>
+ - **Aumentativa =>** Si tengo un dato A, C entonces B, C. <br>
+ - **Transitiva =>** Si tengo una tabla A que esta relacionada con una tabla B y tengo un tabla C relacionada con B no tengo que tener relación entre A y C para poder traer los datos de C cuando hago una consulta de A.
+
 
 <br><br><br>
 ### Enlaces de interes ###
@@ -293,4 +298,6 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 [SQL-92](https://es.wikipedia.org/wiki/SQL-92) <br>
 [Barkers Notation](http://www.vertabelo.com/blog/technical-articles/barkers-erd-notation) <br>
 [gliffy](https://www.gliffy.com/) <br>
-[Start UML](http://staruml.io/)
+[Start UML](http://staruml.io/) <br>
+[Bases de datos orientadas a grafos](https://www.beeva.com/beeva-view/tecnologia/bases-de-datos-orientadas-a-grafos/) <br>
+[Draw IO](https://www.draw.io/) <br>
