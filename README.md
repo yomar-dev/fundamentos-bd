@@ -297,6 +297,8 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 **Tercera forma Normal:** Consiste en que ningún atributo que depende de la **PK**, dependa de otro atributo dato. Es decir, para que los datos estén en 3FN, deben estar en 2FN y **no deben** tener **dependencia transitiva (X->Y->Z).**
 
+**Cuarta forma Normal:** Obligatoriamente no podemos repetir datos en una tabla, solo tenemos combinaciones únicas y todas las llaves van a poder ser si o si obligatoriamente llaves primarias.
+
 
 <br><br><br>
 ### Enlaces de interes ###
