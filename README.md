@@ -277,6 +277,15 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 <br>
 
+### DDL (Data Definition Language) y DML (Data Manipulation Languaje) ###
+***
+Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
+
+![](images/sql-commands.png)
+![](images/conceptos-sql.jpg)
+
+<br>
+
 
 
 ### Notas ###
