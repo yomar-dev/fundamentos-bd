@@ -299,6 +299,8 @@ En las bases de datos **In-Memory** (columnares), el esquema de búsqueda selecc
 
 **Cuarta forma Normal:** Obligatoriamente no podemos repetir datos en una tabla, solo tenemos combinaciones únicas y todas las llaves van a poder ser si o si obligatoriamente llaves primarias.
 
+**Quinta forma Normal:** Es importante tener 2 tablas que están en 4FN, cada dependencia de union (join) va a estar hecho por claves candidatas y no va puede estar hecho por condiciones que no se vayan a cumplir.
+
 
 <br><br><br>
 ### Enlaces de interes ###
