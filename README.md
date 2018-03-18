@@ -329,6 +329,10 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 **Quinta forma Normal:** Es importante tener 2 tablas que están en 4FN, cada dependencia de union (join) va a estar hecho por claves candidatas y no va puede estar hecho por condiciones que no se vayan a cumplir.
 
+**Scale Up:**  Crecer con el mismo hardware, (memoria, procesador, etc).
+
+**Scale Out:**  Escalamiento horizontal, mas maquinas con menores especificaciones.
+
 
 <br><br><br>
 ### Enlaces de interes ###
