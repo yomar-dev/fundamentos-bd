@@ -343,3 +343,7 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 [Start UML](http://staruml.io/) <br>
 [Bases de datos orientadas a grafos](https://www.beeva.com/beeva-view/tecnologia/bases-de-datos-orientadas-a-grafos/) <br>
 [Draw IO](https://www.draw.io/) <br>
+[Elephant SQL](https://www.elephantsql.com/) <br>
+[Now.sh](https://zeit.co/now) <br>
+[Guia de SQL y MySQL](https://joaquinaraujo.github.io/sql-mysql/) <br>
+[Bases de Datos para pruebas](https://dev.mysql.com/doc/index-other.html) <br>
