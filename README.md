@@ -297,6 +297,14 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 <br>
 
+### Guia visual de sistemas NoSQL ###
+***
+Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
+
+![](images/guia-nosql.png)
+
+<br>
+
 
 
 ### Notas ###
