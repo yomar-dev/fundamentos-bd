@@ -286,6 +286,17 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 <br>
 
+### CAP ###
+***
+
+**Consistency (Consistencia):** Debe retornar un dato válido, me debe permitir a cualquier estructura de su base de datos.
+
+**Availability (Disponibilidad):** Cuando haga una solicitud no me va a importar que nodo del sistema esta *up time* o *down time* o sin funcionamiento. Un dato debe estar replicado en al menos tres nodos.
+
+**Partition (Particionamiento):** Es como yo parto esa información por lo menos en tres nodos para evitar que se pierdan mensajes.
+
+<br>
+
 
 
 ### Notas ###
