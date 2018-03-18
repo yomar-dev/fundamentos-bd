@@ -305,6 +305,13 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 <br>
 
+### JOINS ###
+***
+
+![](images/sql-joins.jpg)
+
+<br><br><br>
+
 
 
 ### Notas ###
@@ -347,3 +354,4 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 [Now.sh](https://zeit.co/now) <br>
 [Guia de SQL y MySQL](https://joaquinaraujo.github.io/sql-mysql/) <br>
 [Bases de Datos para pruebas](https://dev.mysql.com/doc/index-other.html) <br>
+[JOINS](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins) <br>
