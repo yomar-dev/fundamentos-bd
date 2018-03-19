@@ -336,9 +336,13 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 **Quinta forma Normal:** Es importante tener 2 tablas que están en 4FN, cada dependencia de union (join) va a estar hecho por claves candidatas y no va puede estar hecho por condiciones que no se vayan a cumplir.
 
-**Scale Up:**  Crecer con el mismo hardware, (memoria, procesador, etc).
+**Scale Up:** Crecer con el mismo hardware, (memoria, procesador, etc).
 
-**Scale Out:**  Escalamiento horizontal, mas maquinas con menores especificaciones.
+**Scale Out:** Escalamiento horizontal, mas maquinas con menores especificaciones.
+
+**Shard:** Se manejan con llaves hash y llaves compartidas de un nodo maestro. 
+
+**Sharding:** Son paquetes o módulos que tienen pequeños partes de la bd o replicas, que permiten añidr mas shard a fin de poder escalar.
 
 
 <br><br><br>
