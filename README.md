@@ -346,7 +346,7 @@ db.nombre_bd.save(usuario)
 
 
 
-### Notas ###
+### Glosario ###
 ***
 
 **Entidad Fuerte:** La constituyen las tablas principales de la BD, que contienen los registros principales del sistema de información y que requieren de entidades o tablasauxiliares para completar su descripción o información.
@@ -393,3 +393,4 @@ db.nombre_bd.save(usuario)
 [Guia de SQL y MySQL](https://joaquinaraujo.github.io/sql-mysql/) <br>
 [Bases de Datos para pruebas](https://dev.mysql.com/doc/index-other.html) <br>
 [JOINS](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins) <br>
+[Editor JSON Online](https://jsoneditoronline.org/) <br>
