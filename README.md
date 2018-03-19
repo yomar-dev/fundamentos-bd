@@ -308,7 +308,39 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 ### JOINS ###
 ***
 
-![](images/sql-joins.jpg)
+![](images/sql-joins.jpg) <br><br>
+
+
+### Insertar en BD - Estructura JSON ###
+***
+
+**Objeto:**
+
+~~~
+usuario = {
+	nombre: "David",
+	apellido: "Ortega",
+	email: "david@gmail.com",
+	dirección: [ 
+		{ 
+			dir: "Calle 93"
+		}, 
+		{ 
+			dir: "KR 7#85-64"
+		}
+	]
+}
+~~~
+
+**Colección:**
+~~~
+use usuario
+~~~
+
+**Insertar en la BD:**
+~~~
+db.nombre_bd.save(usuario)
+~~~
 
 <br><br><br>
 
