@@ -344,6 +344,8 @@ Aporte realizado por: [@DanielEdu](https://platzi.com/@DanielEdu/).
 
 **Sharding:** Son paquetes o módulos que tienen pequeños partes de la bd o replicas, que permiten añidr mas shard a fin de poder escalar.
 
+**Colecciones:** Objetos principales de las Base de Datos no relacional donde se pueden guardan información utilizando distintas llaves para acceder a los datos.
+
 
 <br><br><br>
 ### Enlaces de interes ###
